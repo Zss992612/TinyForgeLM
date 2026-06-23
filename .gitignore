@@ -1,0 +1,16 @@
+.venv/
+.uv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+data/*.jsonl
+data/*.bin
+data/*.meta.json
+checkpoints/
+outputs/
+runs/
+wandb/
+*.pt
+*.pth
+*.ckpt
+*.safetensors

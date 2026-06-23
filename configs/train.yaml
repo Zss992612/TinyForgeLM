@@ -1,0 +1,21 @@
+seed: 42
+device: auto
+output_dir: checkpoints/tinyforgelm-42m
+resume_from: null
+
+max_steps: 300000
+gradient_accumulation_steps: 1
+learning_rate: 3.0e-4
+min_learning_rate: 3.0e-5
+warmup_steps: 3000
+lr_decay: true
+weight_decay: 0.1
+adam_beta1: 0.9
+adam_beta2: 0.95
+adam_eps: 1.0e-8
+grad_clip: 1.0
+
+log_interval: 10
+save_interval: 10000
+save_latest: true
+loss_log_file: losses.jsonl
